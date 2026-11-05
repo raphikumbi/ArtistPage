@@ -5,9 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollSmoother } from 'gsap/ScrollSmoother'
 import UpcomingRelese from "./UpcomingRelese.vue";
 import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 import Socials from "./Socials.vue";
-import Releases from "./Releases.vue";
 import SectionTitle from "./components/SectionTitle.vue";
+import Divider from "./Divider.vue";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
@@ -31,23 +32,33 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div id="smooth-wrapper" class="bg-white">
+  <div id="smooth-wrapper">
     <div id="smooth-content">
 
       <Header />
 
-      <div class="relative mx-auto max-w-7xl p-5">
+      <Divider />
 
-        <SectionTitle title="Find My Music" class="pt-10" />
-        <Socials />
-
-        <!-- <UpcomingRelese /> -->
-
-
-        <SectionTitle title="Releases" class="pt-10" />
-        <Releases />
-
+      <div class="bg-[#17121A]">
+        <div class="relative mx-auto max-w-7xl p-5">
+          <SectionTitle title="Find My Music" class="pt-10" />
+          <Socials />
+        </div>
       </div>
+
+      <Divider />
+
+      <div class="bg-[#191516]">
+        <div class="relative mx-auto max-w-7xl p-5">
+          <SectionTitle title="Upcoming Release" class="pt-10" />
+          <UpcomingRelese />
+        </div>
+      </div>
+
+      <Divider />
+
+      <Footer class="pt-10"/>
+
     </div>
   </div>
 </template>
