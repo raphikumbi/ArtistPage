@@ -9,6 +9,7 @@ import Footer from "./Footer.vue";
 import Socials from "./Socials.vue";
 import SectionTitle from "./components/SectionTitle.vue";
 import Divider from "./Divider.vue";
+import About from "./About.vue";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
@@ -39,7 +40,7 @@ onUnmounted(() => {
 
       <Divider />
 
-      <div class="bg-[#17121A]">
+      <div class="bg-[#151417]">
         <div class="relative mx-auto max-w-7xl p-5">
           <SectionTitle title="Find My Music" class="pt-10" />
           <Socials />
@@ -48,10 +49,19 @@ onUnmounted(() => {
 
       <Divider />
 
-      <div class="bg-[#191516]">
+      <div class="bg-[#151417]">
         <div class="relative mx-auto max-w-7xl p-5">
           <SectionTitle title="Upcoming Release" class="pt-10" />
           <UpcomingRelese />
+        </div>
+      </div>
+
+      <Divider />
+
+      <div class="bg-[#151417]">
+        <div class="relative mx-auto max-w-7xl p-5">
+          <SectionTitle title="About Me" class="pt-10" />
+          <About />
         </div>
       </div>
 

@@ -9,7 +9,7 @@
     ></div>
 
     <!-- Dark overlay -->
-    <div class="absolute inset-0 bg-black/35"></div>
+    <div class="absolute inset-0 bg-black/25"></div>
 
     <!-- Content -->
     <div class="relative z-10 flex flex-col items-center text-center px-6">

@@ -11,7 +11,7 @@
 
           <div class="relative aspect-square overflow-hidden shadow-2xl shadow-black/60">
             <img
-                src="/images/release-whenallgoesdim.png"
+                src="/images/A Lot Of Fight Left In Me.png"
                 alt="When All Goes Dim artwork"
                 class="h-full w-full object-cover transition-transform duration-1000 hover:scale-105"
             />
@@ -34,8 +34,8 @@
           </div>
 
           <h2 class="mt-8 max-w-xl font-display text-5xl uppercase leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl text-strong">
-            When All
-            <span class="block">Goes Dim</span>
+            A LOT OF FIGHT
+            <span class="block">LEFT IN ME</span>
           </h2>
 <!--
           <p class="mt-7 text-sm tracking-wide text-zinc-400">
@@ -48,7 +48,7 @@
               Out everywhere
             </p>
             <p class="mt-2 text-4xl font-semibold tracking-wide sm:text-5xl text-strong">
-              11.12.2026
+              15.01.2027
             </p>
           </div>
 
